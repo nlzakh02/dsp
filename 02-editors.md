@@ -103,5 +103,3 @@ What graphical editor will you use? How did you make your decision? What are som
 >> + styles.less - to edit style
 >> + keymap.cson - to edit keymaps (define how keys behave when pressed in a certain context)
 >> + config.cson - to edit global and language-specific settings, as well as language recognition  
-
-
