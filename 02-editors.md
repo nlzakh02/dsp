@@ -81,14 +81,30 @@ Upload these 3 files to the [`editors`](editors/) folder.
 
 What terminal editor will be your preferred choice of use? How did you make your decision?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> I will probably use the vim text editor that I used some time ago. I still remember keeping a cheat sheet with its functionalities next to a computer.
 
 --
-
+ manager 
 ### Q3. Graphical Editor
 
 What graphical editor will you use? How did you make your decision? What are some interesting features of your editor? What are some useful keyboard shortcuts for your editor? How do you customize your editor?
-
->> REPLACE THIS TEXT WITH YOUR RESPONSE
-
  
+>> I will probably use Atom because it is not programming language specific and I like its feel. The most interesting Atom's feature is that it is hackable. Other features are comatibality across multiple platforms, built-in package manager and autocompletion.  
+>> **Some Useful Shortcuts**
+>> Shortcut | Action
+>> -------- | ------
+>> Ctrl+J | Join the next line to the end of the current line
+>> Ctrl+Up/Down | Move the current line up or down
+>> Ctrl+Shift+D | Duplicate the current line
+>> Ctrl+K Ctrl+U | Upper case the current word
+>> Ctrl+K Ctrl+L | Lower case the current word
+>> Ctrl+Shift+K | Delete current line
+>> Ctrl+Backspace | Delete to beginning of word
+>> Ctrl+Delete | Delete to end of word  
+>>
+>> Customization done by editing configuration files that are written in CSON (CoffeeScript Object Notation):  
+>> + styles.less - to edit style
+>> + keymap.cson - to edit keymaps (define how keys behave when pressed in a certain context)
+>> + config.cson - to edit global and language-specific settings, language recognition  
+
+
