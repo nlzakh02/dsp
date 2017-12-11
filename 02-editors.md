@@ -99,16 +99,16 @@ Here's a basic list of commands:
  
 
 >> **Some Useful Shortcuts**  
->> Shortcut       | Action
->> ---------------|--------------------------------------------------
->> Ctrl+J         | Join the next line to the end of the current line
->> Ctrl+Up/Down   | Move the current line up or down
->> Ctrl+Shift+D   | Duplicate the current line
->> Ctrl+K Ctrl+U  | Upper case the current word
->> Ctrl+K Ctrl+L  | Lower case the current word
->> Ctrl+Shift+K   | Delete current line
->> Ctrl+Backspace | Delete to beginning of word
->> Ctrl+Delete    | Delete to end of word  
+>> |Shortcut        | Action                                            |
+>> |----------------|---------------------------------------------------|
+>> | Ctrl+J         | Join the next line to the end of the current line |
+>> | Ctrl+Up/Down   | Move the current line up or down                  |
+>> | Ctrl+Shift+D   | Duplicate the current line                        |
+>> | Ctrl+K Ctrl+U  | Upper case the current word                       |
+>> | Ctrl+K Ctrl+L  | Lower case the current word                       |
+>> | Ctrl+Shift+K   | Delete current line                               |
+>> | Ctrl+Backspace | Delete to beginning of word                       |
+>> | Ctrl+Delete    | Delete to end of word                             | 
 >>
 >> Customization done by editing configuration files that are written in CSON (CoffeeScript Object Notation):  
 >> + styles.less - to edit style
