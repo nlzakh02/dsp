@@ -88,9 +88,19 @@ What terminal editor will be your preferred choice of use? How did you make your
 What graphical editor will you use? How did you make your decision? What are some interesting features of your editor? What are some useful keyboard shortcuts for your editor? How do you customize your editor?
  
 >> I will probably use Atom because it is not programming language specific and I like its feel. The most interesting Atom's feature is that it is hackable. Other features are comatibality across multiple platforms, built-in package manager and autocompletion.  
->> **Some Useful Shortcuts**
+
+Here's a basic list of commands:  
+
+|   |terminal editor | open a file    |  edit a file |  save a file       |  exit a file   |  
+|---|----------------|----------------|--------------|--------------------|----------------|
+| 1 | nano           | nano filen.py  | [just type]  | ctrl + o, enter    | ctrl + x       |
+| 2 | vim, vi        | vim filen.py   | [just type]  | esc :w, enter      | esc :q, enter  |
+| 3 | emacs          | emacs filen.py | [just type]  | ctrl-x, xtrl-s     | ctrl-x, ctrl-c |
+ 
+
+>> **Some Useful Shortcuts**  
 >> Shortcut       | Action
->> -------------- | -------------------------------------------------
+>> ---------------|--------------------------------------------------
 >> Ctrl+J         | Join the next line to the end of the current line
 >> Ctrl+Up/Down   | Move the current line up or down
 >> Ctrl+Shift+D   | Duplicate the current line
