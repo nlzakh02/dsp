@@ -19,7 +19,16 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > **pwd** - show current working directory path  
+> > **mkdir** - create a directory  
+> > **rm -r** - delete a directory  
+> > **touch metis.txt** - create a file _metis.txt_ using `touch` command  
+> > **rm metis.txt** - delete a file  
+> > **mv metis.txt metis1.txt** - rename a file _metis.txt_ to _metis1.txt_  
+> > **ls -a** - list hidden files  
+> > **cp metis.txt /dsp/metis/** - copy a file _metis.txt_ from current directory to directory _metis_  
+> > **cd** - switch to another diresctory  
+> > **cat** - output the contents of a file to the terminal  
 
 ---
 
@@ -34,7 +43,13 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > `ls`- list all files and directories  
+> > `ls -a` - list all contents, including hidden files and directories  
+> > `ls -l` - list all contents of a directory in long format  
+> > `ls -lh` - list all contents of a directory in long format with human readable file sizes (units of K, M, G)  
+> > `ls -lah` - list all contents, including hidden files and directories in long format with human readable file sizes (units of K, M, G)  
+> > `ls -t` - list files and directories ordered by the time they were last modified  
+> > `ls -Glp` - list all contents of a directory in long format without printing group names with **/** appended to names of directories  
 
 ---
 
@@ -42,7 +57,11 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > `ls -r` - list files in reverse order  
+> > `ls -R` - list subdirectories too  
+> > `ls -u` - list files by the file access time  
+> > `ls -d` - list only directories  
+> > `ls -c` - list files by file timestamp  
 
 ---
 
@@ -50,7 +69,7 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
-
- 
+> > _xargs_ builds and executes command lines from standard input and converts the result into an argument that can be passed to another command.  
+> > Example: **echo 'one two three' | xargs mkdir**  
+> > What happens: string'one two three' is accepted by _echo_, parsed at blank spaces into 3 strings ('one', 'two', 'three') that are passed to command _mkdir_ for creating 3 directories with corresponding names   
 
