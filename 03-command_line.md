@@ -69,7 +69,7 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > _xargs_ builds and executes command lines from standard input and converts the result into an argument that can be passed to another command.  
-> > Example: **echo 'one two three' | xargs mkdir**  
-> > What happens: string'one two three' is accepted by _echo_, parsed at blank spaces into 3 strings ('one', 'two', 'three') that are passed to command _mkdir_ for creating 3 directories with corresponding names   
+> > `xargs` builds and executes command lines from standard input and converts the result into an argument that can be passed to another command.  
+> > _Example_: **echo 'one two three' | xargs mkdir**  
+> > _What happens_: string'one two three' is accepted by _echo_, parsed at blank spaces into 3 strings ('one', 'two', 'three') that are passed to command _mkdir_ for creating 3 directories with corresponding names   
 
