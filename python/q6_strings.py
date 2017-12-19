@@ -18,7 +18,11 @@ def donuts(count):
     >>> donuts(99)
     'Number of donuts: many'
     """
-    raise NotImplementedError
+    count = int(input("Enter number of donuts: "))
+    if count < 10:
+        return("Number of donuts:", count)
+    elif count >= 10:
+        return("Number of donuts: many")
 
 
 def both_ends(s):
@@ -37,7 +41,11 @@ def both_ends(s):
     >>> both_ends('xyz')
     'xyyz'
     """
-    raise NotImplementedError
+    length = len(s)
+    if length <= 2:
+        return("''")
+    elif length > 2:
+        return(s[:2] + s[-2:])
 
 
 def fix_start(s):
@@ -56,7 +64,10 @@ def fix_start(s):
     >>> fix_start('donut')
     'donut'
     """
-    raise NotImplementedError
+    first = s[0]
+    other_part = s[1:]
+    replaced = other_part.replace(first, '*')
+    return(first + replaced)
 
 
 def mix_up(a, b):
@@ -74,7 +85,9 @@ def mix_up(a, b):
     >>> mix_up('pezzy', 'firm')
     'fizzy perm'
     """
-    raise NotImplementedError
+    a_mix = b[:2] + a[2:]
+    b_mix = a[:2] + b[2:]
+    return(a_mix + ' ' + b_mix)
 
 
 def verbing(s):
@@ -91,7 +104,13 @@ def verbing(s):
     >>> verbing('do')
     'do'
     """
-    raise NotImplementedError
+    if len(s) < 3:
+        return(s)
+    elif len(s) >= 3:
+        if s[-3:] == "ing":
+            return(s + 'ly')
+        else:
+            return(s + 'ing')
 
 
 def not_bad(s):
@@ -111,7 +130,12 @@ def not_bad(s):
     >>> not_bad("It's bad yet not")
     "It's bad yet not"
     """
-    raise NotImplementedError
+    has_not = s.find('not')
+    has_bad = s.find('bad')
+    if has_bad > has_not and has_bad > 0 and has_not > 0:
+        return(s.replace(s[has_not:has_bad + 3], "good"))
+    else:
+        return(s)
 
 
 def front_back(a, b):
@@ -130,4 +154,15 @@ def front_back(a, b):
     >>> front_back('Kitten', 'Donut')
     'KitDontenut'
     """
-    raise NotImplementedError
+
+    l = [a, b]
+    front = ""
+    back = ""
+    for i in l:
+        if len(i) % 2 == 0:
+            border = int(len(i) / 2)
+        elif len(i) % 2 != 0:
+            border = (len(i) // 2) + 1
+        front = front + i[:border]
+        back = back + i[border:]
+    return(front + back)
