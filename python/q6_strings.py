@@ -18,10 +18,9 @@ def donuts(count):
     >>> donuts(99)
     'Number of donuts: many'
     """
-    count = int(input("Enter number of donuts: "))
     if count < 10:
-        return("Number of donuts:", count)
-    elif count >= 10:
+        return("Number of donuts: " + str(count))
+    else:
         return("Number of donuts: many")
 
 
@@ -42,9 +41,9 @@ def both_ends(s):
     'xyyz'
     """
     length = len(s)
-    if length <= 2:
-        return("''")
-    elif length > 2:
+    if length < 2:
+        return("")
+    else:
         return(s[:2] + s[-2:])
 
 
@@ -132,8 +131,8 @@ def not_bad(s):
     """
     has_not = s.find('not')
     has_bad = s.find('bad')
-    if has_bad > has_not and has_bad > 0 and has_not > 0:
-        return(s.replace(s[has_not:has_bad + 3], "good"))
+    while has_bad > has_not and has_not >= 0:
+        return(s.replace(s[has_not:has_bad + 3], "good", 1))
     else:
         return(s)
 
@@ -154,7 +153,6 @@ def front_back(a, b):
     >>> front_back('Kitten', 'Donut')
     'KitDontenut'
     """
-
     l = [a, b]
     front = ""
     back = ""

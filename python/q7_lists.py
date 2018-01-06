@@ -16,7 +16,6 @@ def match_ends(words):
     1
     """
     count = 0
-
     for i in words:
         if len(i) >= 2 and i[0] == i[-1]:
             count += 1
@@ -45,6 +44,9 @@ def front_x(words):
         else:
             no_x.append(words[i])
     return(sorted(has_x) + sorted(no_x))
+    #has_x = [words[i] for i in range(len(words)) if words[i][0] == 'x']
+    #no_x = [words[i] for i in range(len(words)) if words[i][0] != 'x']
+    #return(sorted(has_x) + sorted(no_x))
 
 
 def sort_last(tuples):
