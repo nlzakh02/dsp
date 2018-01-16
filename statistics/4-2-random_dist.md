@@ -24,5 +24,5 @@ cdf = thinkstats2.Cdf(sample)
 thinkplot.Cdf(cdf)
 thinkplot.Show(xlabel='Number', ylabel='PMF')
 ```
-![CDF of function `random`](https://github.com/nlzakh02/dsp.git/statistics/random_cdf.png)  
+![CDF of function `random`](random_cdf.png)  
 For the uniform distribution we would expect CDF plot to be linear. Our actual plot is quite close to being linear and appears to be fairly uniform.
