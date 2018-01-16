@@ -42,7 +42,7 @@ print('Biased mean', pmf_biased.Mean())
 
 ### Results
 
-![PMF of function `random`](statistics/actual_biased.png)
+[<img src="statistics/actual_biased.png" title="PMF of function `random`"/>]
 
 ```
 Actual mean 1.02420515504
