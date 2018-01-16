@@ -42,7 +42,7 @@ print('Biased mean', pmf_biased.Mean())
 
 ### Results
 
-[<img src="statistics/actual_biased.png" title="PMF of function `random`"/>](https://github.com/nlzakh02/dsp.git/statistics/actual_biased.png)
+![PMFs of actual and biased distributions](actual_biased.png)
 
 ```
 Actual mean 1.02420515504
