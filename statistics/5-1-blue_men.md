@@ -33,4 +33,5 @@ print('Percent ready to be BLUE: %.2f' % blue)
 ```
 ### Output:
 ```
-Percent ready to be BLUE: 5.11```
+Percent ready to be BLUE: 5.11
+```
